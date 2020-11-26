@@ -1,0 +1,2 @@
+set path_to_game=%cd%\..
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe" "%path_to_game%\Cold_Whisper.sln" /t:build /p:Platform=Win64;verbosity=diagnostic
